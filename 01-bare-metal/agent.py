@@ -12,6 +12,7 @@ client = OpenAI(
     base_url=os.getenv("UNIVERSITY_BASE_URL")
 )
 
+# --- TOOL 1: Weather ---
 # Create a local python tool
 def get_weather(location: str) -> str:
     """ A mock function to simulate a weather API."""
@@ -19,25 +20,55 @@ def get_weather(location: str) -> str:
         return "It is currently raining and 19 degrees."
     return "It is 30 degrees and sunny."
 
+
+# -- TOOL 2: Calculator ---
+def calculate(expression: str) -> str:
+    """Evaluate a mathematical expression."""
+    try:
+        # Basic safety check for eval in our sandbox
+        allowed_chars = "0123456789+-*/(). "
+        if not all(c in allowed_chars for c in expression):
+            return "Error: Invalid characters."
+        return str(eval(expression))
+    except Exception as e:
+        return f"Error: {str(e)}"
+
 available_functions = {
-    "get_weather": get_weather
+    "get_weather": get_weather,
+    "calculate": calculate
 }
 
 # JSON description schema for gpt-oss-120b
-tools_schema = [{
-    "type": "function",
-    "function": {
-        "name": "get_weather",
-        "description": "Get the current weather in a given location",
-        "parameters": {
-            "type": "object",
-            "properties": {
-                "location": {"type": "string", "description": "The city, e.g. Aachen"}
+tools_schema = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "Get the current weather in a given location",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "location": {"type": "string", "description": "The city, e.g. Aachen"}
+                },
+                "required": ["location"],
             },
-            "required": ["location"],
-        },
+        }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "calculate",
+            "description": "Evaluate a mathematical expression (e.g., '19 * 3')",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "expression": {"type": "string", "description": "The math expression to solve"}
+                },
+                "required": ["expression"],
+            },
+        }
     }
-}]
+]
 
 # Core agent loop
 def run_agent(user_input: str, max_iterations: int = 5):
@@ -83,6 +114,8 @@ def run_agent(user_input: str, max_iterations: int = 5):
     return "Agent stopped: Reached maximum iterations."
     
 if __name__ == "__main__":
-    print("Starting Bare-Metal Agent...")
-    output = run_agent("What should I wear today in Aachen")
+    query = "What is the weather in Aachen, and what is that temperature multiplied by 3?"
+    print(f"User Query: {query}\n")
+
+    output = run_agent(query)
     print(f"\n[FINAL ANSWER]: {output}")
