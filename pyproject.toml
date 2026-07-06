@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "crewai>=1.15.1",
+    "ddgs>=9.14.4",
     "openai>=2.44.0",
     "python-dotenv>=1.2.2",
 ]
