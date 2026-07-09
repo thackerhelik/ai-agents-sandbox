@@ -213,7 +213,7 @@ risk_assessment_task = Task(
 )
 
 
-def main():
+def run_financial_crew(inputs_dict):
     
     # Create the crew
     # - We use Process class which helps to delegate the workflow to the Agents (like a Manager at work)
@@ -234,21 +234,28 @@ def main():
         verbose=True,
     )
 
-    financial_trading_inputs = {
-        "stock_selection": "AAPL",
-        "initial_capital": "$100000",
-        "risk_tolerance": "Medium",
-        "trading_strategy_preference": "Day Trading",
-        "news_impact_consideration": True,
-    }
+    # financial_trading_inputs = {
+    #     "stock_selection": "RELIANCE",
+    #     "initial_capital": "20000 Rupees",
+    #     "risk_tolerance": "Medium",
+    #     "trading_strategy_preference": "Day Trading",
+    #     "news_impact_consideration": True,
+    # }
 
-    result = financial_trading_crew.kickoff(inputs=financial_trading_inputs)
+    result = financial_trading_crew.kickoff(inputs=inputs_dict)
 
     return result
 
 
 if __name__ == "__main__":
-    final_output = main()
+    financial_trading_inputs = {
+        "stock_selection": "RELIANCE",
+        "initial_capital": "20000 Rupees",
+        "risk_tolerance": "Medium",
+        "trading_strategy_preference": "Day Trading",
+        "news_impact_consideration": True,
+    }
+    final_output = run_financial_crew(financial_trading_inputs)
     
     print("\n" + "="*40)
     print("FINANCIAL TRADING REPORT")
