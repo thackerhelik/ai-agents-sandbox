@@ -41,7 +41,14 @@ class SearchTool(BaseTool):
     args_schema: type[BaseModel] = SearchToolInput
 
     def _run(self, search_query: str) -> str:
-        raw_results = DDGS().text(search_query, max_results=3)
+        raw_results = list(DDGS().text(search_query, max_results=3))
+
+        if not raw_results:
+            return (
+                f"Action Failed: No internet searches found for the query '{search_query}'. "
+                "CRITICAL: You must try again using completely different, simpler, and broader keywords. "
+                "REMOVE all exact-match quotes."
+            )
 
         clean_text = "Here are the search results:\n\n"
         for result in raw_results:
@@ -163,7 +170,7 @@ strategy_development_task = Task(
     description=(
         "Develop and refine trading strategies based on "
         "the insights from the Data Analyst. "
-        "You have an initial capital of ${initial_capital}. "
+        "You have an initial capital of {initial_capital}. "
         "Your risk tolerance is {risk_tolerance} and "
         "preference is {trading_strategy_preference}. "
         "Factor in recent news: {news_impact_consideration}."
@@ -229,7 +236,7 @@ def main():
 
     financial_trading_inputs = {
         "stock_selection": "AAPL",
-        "initial_capital": "100000",
+        "initial_capital": "$100000",
         "risk_tolerance": "Medium",
         "trading_strategy_preference": "Day Trading",
         "news_impact_consideration": True,
@@ -247,3 +254,9 @@ if __name__ == "__main__":
     print("FINANCIAL TRADING REPORT")
     print("="*40 + "\n")
     print(final_output)
+
+    # Save to markdown file
+    with open("financial_report.md", "w", encoding="utf-8") as file:
+        file.write(str(final_output))
+
+    print("\n Report saved to financial_report.md")
