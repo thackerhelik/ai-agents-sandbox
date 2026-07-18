@@ -6,6 +6,10 @@ task_breakdown:
     tool to research "modern {industry} {project_type} tech stacks". You must base 
     your technical architecture and task breakdown on the live internet search results.
 
+    CRITICAL: You must follow strict Agile methodology. No single task can have an 
+    estimated_time_hours greater than 16 hours. If a task takes longer than 16 hours, 
+    you MUST break it down into smaller, individual sub-tasks.
+
     Once you have researched the live web, break the requirements down into individual tasks. 
     Define each task's scope in detail, set achievable timelines, and ensure that all 
     dependencies are accounted for.

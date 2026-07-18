@@ -16,7 +16,8 @@ def run():
 
     team_members = """
     - John Doe (Project Manager)
-    - Jane Doe (Software Engineer)
+    - Jane Doe (Front-End Software Engineer)
+    - Charlie Davis (Back-End Software Engineer)
     - Bob Smith (Designer)
     - Alice Johnson (QA Engineer)
     - Tom Brown (QA Engineer)
@@ -33,6 +34,7 @@ def run():
     - Ensure fast loading times and optimize for search engines (SEO)
     - Integrate social media links and sharing capabilities
     - Include a testimonials section to showcase customer feedback and build trust
+    - Include an integrated e-commerce shop to sell company merchandise.
     """
 
     inputs = {
