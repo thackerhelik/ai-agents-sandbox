@@ -2,293 +2,431 @@
     "tasks": [
         {
             "task_id": "T-01",
-            "task_name": "Kick‑off & Stakeholder Alignment",
-            "estimated_time_hours": 8.0,
+            "task_name": "Project Kick-off Meeting – align vision, scope, communication plan",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "John Doe (Project Manager)"
+                "John Doe"
             ]
         },
         {
             "task_id": "T-02",
-            "task_name": "Requirement Confirmation & Sign‑off",
-            "estimated_time_hours": 16.0,
+            "task_name": "Set up project repository (GitHub monorepo) + branch strategy",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "John Doe (Project Manager)",
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-03",
-            "task_name": "Project Plan & Timeline Approval",
-            "estimated_time_hours": 16.0,
+            "task_name": "Define Definition of Done (DoD) & Acceptance Criteria for all features",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "John Doe (Project Manager)"
+                "John Doe",
+                "Alice Johnson"
             ]
         },
         {
             "task_id": "T-04",
-            "task_name": "Setup Collaboration Tools",
-            "estimated_time_hours": 8.0,
+            "task_name": "Obtain/confirm brand assets (logo, color palette, fonts) from client",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)",
-                "Bob Smith (Designer)"
+                "Bob Smith"
             ]
         },
         {
             "task_id": "T-05",
-            "task_name": "User Persona & Journey Mapping",
-            "estimated_time_hours": 16.0,
+            "task_name": "Detailed Functional Spec (pages, components, form fields, blog workflows)",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "John Doe (Project Manager)"
+                "John Doe"
             ]
         },
         {
             "task_id": "T-06",
-            "task_name": "Sitemap & Navigation Structure",
-            "estimated_time_hours": 16.0,
+            "task_name": "Technical Architecture Diagram – front-end, back-end, DB, CI/CD, third‑party services",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Bob Smith (Designer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-07",
-            "task_name": "Wireframe Creation (Low‑Fi)",
-            "estimated_time_hours": 32.0,
+            "task_name": "Choose headless CMS (Sanity vs Contentful) – decision matrix + trial account",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "Bob Smith (Designer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-08",
-            "task_name": "Wireframe Review & Sign‑off",
-            "estimated_time_hours": 16.0,
+            "task_name": "Security & compliance checklist (HTTPS, CSP, OWASP top‑10)",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "John Doe (Project Manager)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-09",
-            "task_name": "Brand Style Guide",
-            "estimated_time_hours": 24.0,
+            "task_name": "Sprint planning – break backlog into 2‑week sprints, assign story points",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "Bob Smith (Designer)"
+                "John Doe"
             ]
         },
         {
             "task_id": "T-10",
-            "task_name": "High‑Fi Mockups (Desktop & Mobile)",
-            "estimated_time_hours": 56.0,
+            "task_name": "Wireframe all pages (desktop + mobile) – low‑fidelity (Figma)",
+            "estimated_time_hours": 16.0,
             "required_resources": [
-                "Bob Smith (Designer)"
+                "Bob Smith"
             ]
         },
         {
             "task_id": "T-11",
-            "task_name": "Design Review & Iterations",
-            "estimated_time_hours": 32.0,
+            "task_name": "Design System – colors, typography, UI components using Tailwind CSS utility concepts",
+            "estimated_time_hours": 16.0,
             "required_resources": [
-                "John Doe (Project Manager)",
-                "Bob Smith (Designer)"
+                "Bob Smith"
             ]
         },
         {
             "task_id": "T-12",
-            "task_name": "Project Scaffold & Tooling",
-            "estimated_time_hours": 16.0,
+            "task_name": "High‑fidelity mockups (desktop & mobile) for each page",
+            "estimated_time_hours": 24.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Bob Smith"
             ]
         },
         {
             "task_id": "T-13",
-            "task_name": "Responsive Layout (Grid & Breakpoints)",
-            "estimated_time_hours": 32.0,
+            "task_name": "Interactive prototype (clickable) for client review",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Bob Smith"
             ]
         },
         {
             "task_id": "T-14",
-            "task_name": "Home Page Development",
-            "estimated_time_hours": 32.0,
+            "task_name": "Client design sign‑off (feedback incorporated)",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "John Doe",
+                "Bob Smith"
             ]
         },
         {
             "task_id": "T-15",
-            "task_name": "About Us Page",
-            "estimated_time_hours": 16.0,
+            "task_name": "Create Next.js project with TypeScript, configure Tailwind CSS, ESLint, Prettier",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-16",
-            "task_name": "Services Page",
-            "estimated_time_hours": 24.0,
+            "task_name": "Initialize Express API skeleton, connect to MongoDB Atlas (dev DB)",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-17",
-            "task_name": "Contact Us Page",
-            "estimated_time_hours": 24.0,
+            "task_name": "Set up CI workflow (GitHub Actions) – lint, unit tests, build, deploy to Vercel & Render",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-18",
-            "task_name": "Blog Section",
-            "estimated_time_hours": 40.0,
+            "task_name": "Install and configure headless CMS SDK – test fetching sample blog data",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-19",
-            "task_name": "Testimonials Carousel",
-            "estimated_time_hours": 16.0,
+            "task_name": "Add Google Maps API key (restricted) to env, create small map component test",
+            "estimated_time_hours": 4.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-20",
-            "task_name": "Social Media Integration",
-            "estimated_time_hours": 16.0,
+            "task_name": "Layout & global components (Header, Footer, Nav, SEO meta component)",
+            "estimated_time_hours": 24.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-21",
-            "task_name": "SEO Foundations & Performance Optimisation",
-            "estimated_time_hours": 32.0,
+            "task_name": "Responsive Grid system using Tailwind – ensure mobile‑first breakpoints",
+            "estimated_time_hours": 16.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-22",
-            "task_name": "Cross‑Browser & Mobile Testing (Dev‑Phase)",
-            "estimated_time_hours": 24.0,
+            "task_name": "Page templates – Home, About, Services, Contact, Blog list, Blog post, Testimonials",
+            "estimated_time_hours": 40.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-23",
-            "task_name": "Test Plan Creation",
+            "task_name": "Contact form – Formik + Yup validation, submission to Express endpoint, success/error UI",
             "estimated_time_hours": 16.0,
             "required_resources": [
-                "Alice Johnson (QA Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-24",
-            "task_name": "Functional Testing",
-            "estimated_time_hours": 32.0,
+            "task_name": "Map integration – embed Google Maps with business location marker, responsive container",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Alice Johnson (QA Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-25",
-            "task_name": "Responsive & Cross‑Device Testing",
+            "task_name": "Blog integration – fetch posts from CMS, render markdown with SEO tags, pagination",
             "estimated_time_hours": 24.0,
             "required_resources": [
-                "Tom Brown (QA Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-26",
-            "task_name": "Performance & SEO Audits",
+            "task_name": "Testimonials carousel – dynamic data source + smooth animation",
             "estimated_time_hours": 16.0,
             "required_resources": [
-                "Alice Johnson (QA Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-27",
-            "task_name": "Accessibility Testing",
-            "estimated_time_hours": 16.0,
+            "task_name": "Social media share buttons (Twitter, LinkedIn, Facebook) – Open Graph meta tags, share URLs",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Tom Brown (QA Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-28",
-            "task_name": "User Acceptance Testing (UAT) Session",
+            "task_name": "Global SEO optimization – next‑head, sitemap.xml generation, robots.txt, schema.org markup",
             "estimated_time_hours": 16.0,
             "required_resources": [
-                "John Doe (Project Manager)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-29",
-            "task_name": "Regression & Final Fixes",
-            "estimated_time_hours": 32.0,
+            "task_name": "Define API contract (OpenAPI spec) for Contact form, Blog, Testimonials",
+            "estimated_time_hours": 8.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)",
-                "Alice Johnson (QA Engineer)",
-                "Tom Brown (QA Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-30",
-            "task_name": "Production Environment Setup",
+            "task_name": "Implement Contact endpoint – store submissions in MongoDB, send email notification",
             "estimated_time_hours": 16.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-31",
-            "task_name": "Migration & Content Populate",
+            "task_name": "CRUD endpoints for Blog (read‑only for public)",
             "estimated_time_hours": 16.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-32",
-            "task_name": "Final Smoke Test on Production",
+            "task_name": "CRUD endpoints for Testimonials (read‑only)",
             "estimated_time_hours": 8.0,
             "required_resources": [
-                "Alice Johnson (QA Engineer)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-33",
-            "task_name": "Go‑Live & Announcement",
+            "task_name": "Middleware – CORS, rate limiting, helmet security headers, request logging",
             "estimated_time_hours": 8.0,
             "required_resources": [
-                "John Doe (Project Manager)"
+                "Jane Doe"
             ]
         },
         {
             "task_id": "T-34",
-            "task_name": "Post‑Launch Monitoring (7 days)",
-            "estimated_time_hours": 56.0,
+            "task_name": "Unit tests for all controllers/services (Jest) – 80% coverage",
+            "estimated_time_hours": 16.0,
             "required_resources": [
-                "Jane Doe (Software Engineer)"
+                "Jane Doe",
+                "Alice Johnson"
             ]
         },
         {
             "task_id": "T-35",
-            "task_name": "Project Closure & Documentation Handover",
+            "task_name": "Load & performance testing (k6) for API endpoints",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-36",
+            "task_name": "Documentation – Swagger UI hosted on /docs",
+            "estimated_time_hours": 4.0,
+            "required_resources": [
+                "Jane Doe"
+            ]
+        },
+        {
+            "task_id": "T-37",
+            "task_name": "Unit Test Review – verify Jest coverage reports, fix failing tests",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Alice Johnson"
+            ]
+        },
+        {
+            "task_id": "T-38",
+            "task_name": "Component & Integration Tests – React Testing Library for critical UI",
             "estimated_time_hours": 16.0,
             "required_resources": [
-                "John Doe (Project Manager)"
+                "Alice Johnson"
+            ]
+        },
+        {
+            "task_id": "T-39",
+            "task_name": "End-to-End (Cypress) Tests – navigation, form submission, map load, SEO meta present",
+            "estimated_time_hours": 24.0,
+            "required_resources": [
+                "Alice Johnson",
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-40",
+            "task_name": "Responsive & Cross-Browser Testing – Chrome, Firefox, Safari, Edge",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-41",
+            "task_name": "Performance Audits – Lighthouse CI (FCP <2s, TBT <150ms)",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-42",
+            "task_name": "Accessibility Audit – axe-core automated + manual keyboard test",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-43",
+            "task_name": "Security Scan – npm audit, Snyk scan, OWASP ZAP dynamic scan",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Jane Doe",
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-44",
+            "task_name": "UAT Preparation – compile test scripts, create UAT sign‑off checklist",
+            "estimated_time_hours": 4.0,
+            "required_resources": [
+                "John Doe"
+            ]
+        },
+        {
+            "task_id": "T-45",
+            "task_name": "UAT Execution with client – walkthrough, collect feedback, log bugs",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "John Doe",
+                "Alice Johnson",
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-46",
+            "task_name": "Bug‑fix sprint (R1) – resolve all critical UAT bugs",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Jane Doe"
+            ]
+        },
+        {
+            "task_id": "T-47",
+            "task_name": "Configure production environments – Vercel (frontend) & Render (backend)",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Jane Doe"
+            ]
+        },
+        {
+            "task_id": "T-48",
+            "task_name": "Set up monitoring & alerting – LogRocket, Sentry, Google Analytics, Search Console",
+            "estimated_time_hours": 4.0,
+            "required_resources": [
+                "Jane Doe"
+            ]
+        },
+        {
+            "task_id": "T-49",
+            "task_name": "Final performance & SEO audit on production URL (Lighthouse, Screaming Frog)",
+            "estimated_time_hours": 4.0,
+            "required_resources": [
+                "Tom Brown"
+            ]
+        },
+        {
+            "task_id": "T-50",
+            "task_name": "Deploy to production, run smoke tests (health‑checks, form submission, map)",
+            "estimated_time_hours": 4.0,
+            "required_resources": [
+                "Jane Doe"
+            ]
+        },
+        {
+            "task_id": "T-51",
+            "task_name": "Publish documentation – README, runbook for updates, backup strategy",
+            "estimated_time_hours": 4.0,
+            "required_resources": [
+                "John Doe"
+            ]
+        },
+        {
+            "task_id": "T-52",
+            "task_name": "Project closure meeting – lessons learned, hand‑off to client, final sign‑off",
+            "estimated_time_hours": 4.0,
+            "required_resources": [
+                "John Doe"
             ]
         }
     ],
     "milestones": [
         {
-            "milestone_name": "Project Initiation",
+            "milestone_name": "Initiation Complete",
             "tasks": [
                 "T-01",
                 "T-02",
@@ -297,59 +435,86 @@
             ]
         },
         {
-            "milestone_name": "UX Research & Information Architecture",
+            "milestone_name": "Requirements & Architecture Complete",
             "tasks": [
                 "T-05",
                 "T-06",
                 "T-07",
-                "T-08"
+                "T-08",
+                "T-09"
             ]
         },
         {
-            "milestone_name": "UI Design (High‑Fi Mockups & Prototypes)",
+            "milestone_name": "Design Sign-off",
             "tasks": [
-                "T-09",
                 "T-10",
-                "T-11"
-            ]
-        },
-        {
-            "milestone_name": "Front‑End Development",
-            "tasks": [
+                "T-11",
                 "T-12",
                 "T-13",
-                "T-14",
+                "T-14"
+            ]
+        },
+        {
+            "milestone_name": "Environment Setup Complete",
+            "tasks": [
                 "T-15",
                 "T-16",
                 "T-17",
                 "T-18",
-                "T-19",
-                "T-20",
-                "T-21",
-                "T-22"
+                "T-19"
             ]
         },
         {
-            "milestone_name": "QA & Acceptance Testing",
+            "milestone_name": "Front-End Development Complete",
             "tasks": [
+                "T-20",
+                "T-21",
+                "T-22",
                 "T-23",
                 "T-24",
                 "T-25",
                 "T-26",
                 "T-27",
-                "T-28",
-                "T-29"
+                "T-28"
             ]
         },
         {
-            "milestone_name": "Deployment & Launch",
+            "milestone_name": "Back-End Development Complete",
             "tasks": [
+                "T-29",
                 "T-30",
                 "T-31",
                 "T-32",
                 "T-33",
                 "T-34",
-                "T-35"
+                "T-35",
+                "T-36"
+            ]
+        },
+        {
+            "milestone_name": "QA & Testing Complete",
+            "tasks": [
+                "T-37",
+                "T-38",
+                "T-39",
+                "T-40",
+                "T-41",
+                "T-42",
+                "T-43",
+                "T-44",
+                "T-45",
+                "T-46"
+            ]
+        },
+        {
+            "milestone_name": "Deployment & Go-Live",
+            "tasks": [
+                "T-47",
+                "T-48",
+                "T-49",
+                "T-50",
+                "T-51",
+                "T-52"
             ]
         }
     ]

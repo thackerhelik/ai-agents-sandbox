@@ -1,8 +1,14 @@
 task_breakdown:
   description: >
-    Carefully analyze the project requirements for the {project_type} project and 
-    break them down into individual tasks. Define each task's scope in detail, set 
-    achievable timelines, and ensure that all dependencies are accounted for:
+    Carefully analyze the project requirements for the {project_type} project. 
+    
+    CRITICAL INSTRUCTION: Before you write the plan, you MUST use your internet_search 
+    tool to research "modern {industry} {project_type} tech stacks". You must base 
+    your technical architecture and task breakdown on the live internet search results.
+
+    Once you have researched the live web, break the requirements down into individual tasks. 
+    Define each task's scope in detail, set achievable timelines, and ensure that all 
+    dependencies are accounted for.
 
     Project Requirements:
     {project_requirements}

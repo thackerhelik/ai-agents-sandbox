@@ -1,6 +1,7 @@
 from crewai import Agent, Crew, Process, Task, LLM
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
+from .tools.search_tool import SearchTool
 from typing import List
 from pydantic import BaseModel, Field
 import os
@@ -27,6 +28,8 @@ class AutomatedProject():
     agents: list[BaseAgent]
     tasks: list[Task]
 
+    search_tool = SearchTool()
+
     @property
     def uni_llm(self):
         return LLM(
@@ -39,6 +42,7 @@ class AutomatedProject():
     def project_planning_agent(self) -> Agent:
         return Agent(
             config=self.agents_config['project_planning_agent'], # type: ignore[index]
+            tools=[self.search_tool],
             llm=self.uni_llm
         )
 
