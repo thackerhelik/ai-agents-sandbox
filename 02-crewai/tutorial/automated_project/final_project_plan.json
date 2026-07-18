@@ -1,0 +1,356 @@
+{
+    "tasks": [
+        {
+            "task_id": "T-01",
+            "task_name": "Kick‑off & Stakeholder Alignment",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "John Doe (Project Manager)"
+            ]
+        },
+        {
+            "task_id": "T-02",
+            "task_name": "Requirement Confirmation & Sign‑off",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "John Doe (Project Manager)",
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-03",
+            "task_name": "Project Plan & Timeline Approval",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "John Doe (Project Manager)"
+            ]
+        },
+        {
+            "task_id": "T-04",
+            "task_name": "Setup Collaboration Tools",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)",
+                "Bob Smith (Designer)"
+            ]
+        },
+        {
+            "task_id": "T-05",
+            "task_name": "User Persona & Journey Mapping",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "John Doe (Project Manager)"
+            ]
+        },
+        {
+            "task_id": "T-06",
+            "task_name": "Sitemap & Navigation Structure",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Bob Smith (Designer)"
+            ]
+        },
+        {
+            "task_id": "T-07",
+            "task_name": "Wireframe Creation (Low‑Fi)",
+            "estimated_time_hours": 32.0,
+            "required_resources": [
+                "Bob Smith (Designer)"
+            ]
+        },
+        {
+            "task_id": "T-08",
+            "task_name": "Wireframe Review & Sign‑off",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "John Doe (Project Manager)"
+            ]
+        },
+        {
+            "task_id": "T-09",
+            "task_name": "Brand Style Guide",
+            "estimated_time_hours": 24.0,
+            "required_resources": [
+                "Bob Smith (Designer)"
+            ]
+        },
+        {
+            "task_id": "T-10",
+            "task_name": "High‑Fi Mockups (Desktop & Mobile)",
+            "estimated_time_hours": 56.0,
+            "required_resources": [
+                "Bob Smith (Designer)"
+            ]
+        },
+        {
+            "task_id": "T-11",
+            "task_name": "Design Review & Iterations",
+            "estimated_time_hours": 32.0,
+            "required_resources": [
+                "John Doe (Project Manager)",
+                "Bob Smith (Designer)"
+            ]
+        },
+        {
+            "task_id": "T-12",
+            "task_name": "Project Scaffold & Tooling",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-13",
+            "task_name": "Responsive Layout (Grid & Breakpoints)",
+            "estimated_time_hours": 32.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-14",
+            "task_name": "Home Page Development",
+            "estimated_time_hours": 32.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-15",
+            "task_name": "About Us Page",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-16",
+            "task_name": "Services Page",
+            "estimated_time_hours": 24.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-17",
+            "task_name": "Contact Us Page",
+            "estimated_time_hours": 24.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-18",
+            "task_name": "Blog Section",
+            "estimated_time_hours": 40.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-19",
+            "task_name": "Testimonials Carousel",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-20",
+            "task_name": "Social Media Integration",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-21",
+            "task_name": "SEO Foundations & Performance Optimisation",
+            "estimated_time_hours": 32.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-22",
+            "task_name": "Cross‑Browser & Mobile Testing (Dev‑Phase)",
+            "estimated_time_hours": 24.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-23",
+            "task_name": "Test Plan Creation",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Alice Johnson (QA Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-24",
+            "task_name": "Functional Testing",
+            "estimated_time_hours": 32.0,
+            "required_resources": [
+                "Alice Johnson (QA Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-25",
+            "task_name": "Responsive & Cross‑Device Testing",
+            "estimated_time_hours": 24.0,
+            "required_resources": [
+                "Tom Brown (QA Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-26",
+            "task_name": "Performance & SEO Audits",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Alice Johnson (QA Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-27",
+            "task_name": "Accessibility Testing",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Tom Brown (QA Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-28",
+            "task_name": "User Acceptance Testing (UAT) Session",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "John Doe (Project Manager)"
+            ]
+        },
+        {
+            "task_id": "T-29",
+            "task_name": "Regression & Final Fixes",
+            "estimated_time_hours": 32.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)",
+                "Alice Johnson (QA Engineer)",
+                "Tom Brown (QA Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-30",
+            "task_name": "Production Environment Setup",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-31",
+            "task_name": "Migration & Content Populate",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-32",
+            "task_name": "Final Smoke Test on Production",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "Alice Johnson (QA Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-33",
+            "task_name": "Go‑Live & Announcement",
+            "estimated_time_hours": 8.0,
+            "required_resources": [
+                "John Doe (Project Manager)"
+            ]
+        },
+        {
+            "task_id": "T-34",
+            "task_name": "Post‑Launch Monitoring (7 days)",
+            "estimated_time_hours": 56.0,
+            "required_resources": [
+                "Jane Doe (Software Engineer)"
+            ]
+        },
+        {
+            "task_id": "T-35",
+            "task_name": "Project Closure & Documentation Handover",
+            "estimated_time_hours": 16.0,
+            "required_resources": [
+                "John Doe (Project Manager)"
+            ]
+        }
+    ],
+    "milestones": [
+        {
+            "milestone_name": "Project Initiation",
+            "tasks": [
+                "T-01",
+                "T-02",
+                "T-03",
+                "T-04"
+            ]
+        },
+        {
+            "milestone_name": "UX Research & Information Architecture",
+            "tasks": [
+                "T-05",
+                "T-06",
+                "T-07",
+                "T-08"
+            ]
+        },
+        {
+            "milestone_name": "UI Design (High‑Fi Mockups & Prototypes)",
+            "tasks": [
+                "T-09",
+                "T-10",
+                "T-11"
+            ]
+        },
+        {
+            "milestone_name": "Front‑End Development",
+            "tasks": [
+                "T-12",
+                "T-13",
+                "T-14",
+                "T-15",
+                "T-16",
+                "T-17",
+                "T-18",
+                "T-19",
+                "T-20",
+                "T-21",
+                "T-22"
+            ]
+        },
+        {
+            "milestone_name": "QA & Acceptance Testing",
+            "tasks": [
+                "T-23",
+                "T-24",
+                "T-25",
+                "T-26",
+                "T-27",
+                "T-28",
+                "T-29"
+            ]
+        },
+        {
+            "milestone_name": "Deployment & Launch",
+            "tasks": [
+                "T-30",
+                "T-31",
+                "T-32",
+                "T-33",
+                "T-34",
+                "T-35"
+            ]
+        }
+    ]
+}
