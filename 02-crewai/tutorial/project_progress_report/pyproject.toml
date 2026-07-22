@@ -1,0 +1,24 @@
+[project]
+name = "project_progress_report"
+version = "0.1.0"
+description = "project_progress_report using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "crewai[tools]>=1.15.4,<2.0.0"
+]
+
+[project.scripts]
+project_progress_report = "project_progress_report.main:run"
+run_crew = "project_progress_report.main:run"
+train = "project_progress_report.main:train"
+replay = "project_progress_report.main:replay"
+test = "project_progress_report.main:test"
+run_with_trigger = "project_progress_report.main:run_with_trigger"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.crewai]
+type = "crew"
